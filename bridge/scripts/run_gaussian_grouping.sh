@@ -6,7 +6,7 @@ set -euo pipefail
 # Expects:
 #   - Frames under Gaussian-Grouping/data/<scene_name>/images or images_<scale>
 #   - Masks under Gaussian-Grouping/data/<scene_name>/object_mask
-#   - COLMAP available; Gaussian-Grouping dependencies installed.
+#   - COLMAP available; Gaussian-Grouping dependencies installed. 
 
 SCENE="${1:-}"
 SCALE="${2:-1}"
